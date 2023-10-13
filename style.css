@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+@font-face{
+    font-family: Holyfat;
+    src: url(./tipografia/Holyfat.ttf);
+}
+
+body{
+    background-image: url(./img/fondo1.jpg);
+    background-size: cover;
+}
+
+.hero_header{
+    padding: 0 5rem ;
+}
+  
+.header-width, .primeros-auxilios, .objetivo-temas, .beneficios, .encuesta{
+    max-width: 1400px;
+    padding: 0rem 3rem;
+}
+
+.verde{
+    background-color: rgba(255, 255, 255, 0.72);
+    color: #4CDA00 !important;
+    border-radius: 25px;
+}
+
+.verde1{
+    color: #4CDA00 !important;
+}
+
+.primeros-auxilios-text h3{
+    font-size: 3.5rem;
+    line-height: 3rem;
+    color: #46c601 !important;
+
+}
+
+.primeros-auxilios-text h4{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.azul{
+    color: rgb(59, 175, 242);
+}
+
+  
+
+
+.bg-body-tertiary {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.texto-navbar{
+    color: #4CDA00 !important;
+    line-height: 1.3rem;
+}
+
+.texto-navbar:hover{
+    background-color: #4CDA00;
+    color: white !important;
+    border-radius: 15px;
+}
+
+.boton{
+    background-color: #4CDA00;
+    color: white !important;
+    padding: 1.5rem 1rem;
+    border-radius: 50%;
+}
+
+.boton:hover{
+    background-color: #46c601;
+}
+
+
+.titulos{
+    font-family: 'Holyfat';
+}
+
+
+
+
+.objetivo-temas-text{
+    background-color: #4cda009d;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.72);
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.logo{
+    width: 100px;
+}
+
+.img-beneficios:hover{
+    filter: brightness(1.2);
+}
+
+@media screen and (min-width: 1250px){
+    .logo{
+        width: 300px;
+    }
+}
